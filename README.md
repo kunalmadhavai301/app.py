@@ -45,6 +45,9 @@ should be between 0 and 100.");
  }
  }
 }
+
+
+
 🟩 Problem 2
 Q: Accept item names, price, and quantity. Calculate total, apply a discount if 
 total > 2000, and display formatted bill using methods.
@@ -79,6 +82,9 @@ price and quantity.");
  }
  }
 }
+
+
+
 🟩 Problem 3
 Q: Take a sentence and count the number of words and occurrences of a 
 specific word using arrays and string methods.
@@ -102,6 +108,8 @@ public class SimpleWordCount {
  sc.close();
  }
 }
+
+
 🟩 Problem 4
 Q: Check password strength: Length ≥ 8, contains uppercase, lowercase, digit, 
 and symbol. Throw an exception if invalid.
@@ -134,6 +142,8 @@ letter.");
  }
  }
 }
+
+
 🟩 Problem 5
 Q: Simulate ATM operations like deposit, withdraw, and check balance. Use 
 methods for each operation and handle insufficient balance with exception 
@@ -184,6 +194,8 @@ balance!");
  sc.close();
  }
 }
+
+
 🟩 Problem 6
 Q: Accept basic salary and compute HRA, DA, PF, and gross salary. Display 
 results using methods and handle invalid inputs with exceptions.
@@ -217,6 +229,8 @@ public class EasySalaryCalculator {
  }
  }
 }
+
+
 🟩 Problem 7
 Q: Accept total bill and membership type (Silver/Gold/Platinum) and apply 
 discounts accordingly using if-else and methods.
@@ -251,6 +265,8 @@ applied.");
  }
  }
 }
+
+
 🟩 Problem 8
 Q: For ‘n’ products, store product name, price, and quantity in arrays. Calculate 
 total stock value and handle out-of-stock errors via exception handling.
@@ -290,6 +306,11 @@ public class SuperEasyProductStock {
  }
  }
 }
+
+
+
+
+
 Problem 1
 Q: Process a coffee order: take customer size choice, calculate total price based 
 on size and add-ons, and handle a list of 5 drink types.
@@ -335,6 +356,9 @@ Summary:%nDrink: %s%nSize: %c%nAdd-on: %s%nTotal Price: ₹%.2f%n",
  }
  }
 }
+
+
+
 🟩 Problem 2
 Q: Create a method that accepts two numbers and an operation symbol. Use a 
 switch to perform addition, subtraction, multiplication, or division.
@@ -366,6 +390,9 @@ public class SimpleCalculator {
  sc.close();
  }
 }
+
+
+
 🟩 Problem 3
 Q: Input a string and count vowels, consonants, digits, and special characters 
 using loops and conditionals.
@@ -396,6 +423,9 @@ public class CountCharacters {
  sc.close();
  }
 }
+
+
+
 🟩 Problem 4
 Q: For n customers, input name, account type, and balance. Apply 4 % interest 
 for savings and 6 % for fixed accounts, then display updated balances.
@@ -428,6 +458,9 @@ public class BankInterest {
  sc.close();
  }
 }
+
+
+
 🟩 Problem 5
 Q: Read 5 daily temperatures into an array. Use a loop and a method to convert 
 each from Celsius to Fahrenheit, displaying both.
@@ -450,6 +483,9 @@ public class TempConverter {
  sc.close();
  }
 }
+
+
+
 🟩 Problem 6
 Q: Accept number of units consumed and calculate bill based on slab rates 
 using conditionals and methods.
@@ -474,6 +510,9 @@ public class ElectricityBill {
  sc.close();
  }
 }
+
+
+
 🟩 Problem 7
 Q: Input a string and check if it’s a palindrome (ignore case and spaces). Use 
 string methods and exception handling.
@@ -497,6 +536,9 @@ public class PalindromeCheck {
  }
  }
 }
+
+
+
 🟩 Problem 8
 Q: Read a word. Use a loop and a switch on each character to replace 'a' → '4', 
 'e' → '3', 'o' → '0'.
