@@ -25,13 +25,13 @@ driver.quit()
 
 (Locators (ID, XPath, CSS))
 
-from selenium import webdriver         
-from selenium.webdriver.common.by import By        
-driver = webdriver.Chrome()        
-driver.get("https://www.google.com")       
-search = driver.find_element(By.NAME, "q")           
-search.send_keys("Selenium Python")               
-driver.quit()        
+from selenium import webdriver          
+from selenium.webdriver.common.by import By         
+driver = webdriver.Chrome()         
+driver.get("https://www.google.com")        
+search = driver.find_element(By.NAME, "q")            
+search.send_keys("Selenium Python")                
+driver.quit()         
 
 (Form Automation)
 
