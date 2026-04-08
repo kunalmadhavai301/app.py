@@ -109,10 +109,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait       
 from selenium.webdriver.support import expected_conditions as EC       
 driver = webdriver.Chrome()     
-# Implicit wait      
 driver.implicitly_wait(10)      
-driver.get("https://www.google.com")       
-# Explicit wait       
+driver.get("https://www.google.com")        
 wait = WebDriverWait(driver, 10)      
 search = wait.until(EC.presence_of_element_located((By.NAME, "q")))       
 search.send_keys("Hello")      
