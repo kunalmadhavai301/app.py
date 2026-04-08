@@ -35,15 +35,15 @@ driver.quit()
 
 (Form Automation)
 
-from selenium import webdriver 
-from selenium.webdriver.common.by import By 
-import time 
-driver = webdriver.Chrome() 
-driver.get("https://www.facebook.com") 
-driver.find_element(By.ID, "email").send_keys("test123") 
-driver.find_element(By.ID, "pass").send_keys("123456") 
-time.sleep(2) 
-driver.quit() 
+from selenium import webdriver     
+from selenium.webdriver.common.by import By      
+import time     
+driver = webdriver.Chrome()      
+driver.get("https://www.facebook.com")      
+driver.find_element(By.ID, "email").send_keys("test123")      
+driver.find_element(By.ID, "pass").send_keys("123456")     
+time.sleep(2)        
+driver.quit()        
 
 (Dropdown & Checkbox)
 
