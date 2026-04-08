@@ -1,10 +1,10 @@
 (Selenium Setup & WebDriver)
    
    from selenium import webdriver
-   driver = webdriver.Chrome()
-   driver.get("https://www.google.com")
-   print("Title is:", driver.title)
-   driver.quit()
+        driver = webdriver.Chrome()
+        driver.get("https://www.google.com")
+           print("Title is:", driver.title)
+            driver.quit()
 
 (Browser Navigation)
 
