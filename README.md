@@ -8,30 +8,30 @@ driver.quit()
 
 (Browser Navigation)
 
-from selenium import webdriver
-import time
-driver = webdriver.Chrome()
-driver.get("https://www.google.com")
-time.sleep(2)
-driver.get("https://www.youtube.com")
-time.sleep(2)
-driver.back()
-time.sleep(2)
-driver.forward()
-time.sleep(2)
-driver.refresh()
-time.sleep(2)
-driver.quit()
+from selenium import webdriver      
+import time       
+driver = webdriver.Chrome()       
+driver.get("https://www.google.com")       
+time.sleep(2)      
+driver.get("https://www.youtube.com")       
+time.sleep(2)      
+driver.back()        
+time.sleep(2)     
+driver.forward()        
+time.sleep(2)          
+driver.refresh()      
+time.sleep(2)           
+driver.quit()         
 
 (Locators (ID, XPath, CSS))
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-driver = webdriver.Chrome()
-driver.get("https://www.google.com")
-search = driver.find_element(By.NAME, "q")
-search.send_keys("Selenium Python")
-driver.quit()
+from selenium import webdriver         
+from selenium.webdriver.common.by import By        
+driver = webdriver.Chrome()        
+driver.get("https://www.google.com")       
+search = driver.find_element(By.NAME, "q")           
+search.send_keys("Selenium Python")               
+driver.quit()        
 
 (Form Automation)
 
